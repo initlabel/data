@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   },
 };
 
-const IFRAME_URL = "https://initlabel.iceiy.com/";
+const IFRAME_URL = "https://mrumba.infinityfreeapp.com/";
 
 export default function HomePage() {
   return (

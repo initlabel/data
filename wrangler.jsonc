@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "iframe",
+  "name": "data",
   "main": ".vinext/worker/index.js",
   "compatibility_date": "2025-01-01",
   "compatibility_flags": ["nodejs_compat"],

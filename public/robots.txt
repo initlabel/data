@@ -1,0 +1,19 @@
+# robots.txt for initlabel.com
+# Served from the root of the site
+
+User-agent: *
+Allow: /
+Disallow: /user.php
+
+# Explicitly allow major crawlers to index the wrapper page
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Block common AI scrapers from the wrapper (optional — remove if unwanted)
+User-agent: GPTBot
+Disallow: /
+
+Sitemap: https://initlabel.com/sitemap.xml
